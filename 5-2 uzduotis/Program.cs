@@ -12,7 +12,7 @@ namespace _5_2_uzduotis
         {
             Console.WriteLine("Koks jusu amius");
             var a = Convert.ToInt32(Console.ReadLine());
-            if (a > 18) {
+            if (a >= 18) {
                 Console.WriteLine("jūs galite balsuoti");
             }
         }

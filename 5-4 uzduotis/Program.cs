@@ -16,7 +16,7 @@ namespace _5_4_uzduotis
             var c = Convert.ToInt32(Console.ReadLine());
             var d = Convert.ToInt32(Console.ReadLine());
             var e = Convert.ToInt32(Console.ReadLine());
-            var vidurkis = (a + b + c + d + e) / 5;
+            var vidurkis = (double)(a + b + c + d + e) / 5;
             if (vidurkis >= 5) {
                 Console.WriteLine("vidurkis yra lygus arba didesnis už 5.");
             }
