@@ -20,7 +20,7 @@ namespace _1_1_uzduotis
             var kursas = 1;
             var studiju_programu_pavadinimas = "Ccc";
             var atsiskaitytu_kreditu_skaicius = 150;
-
+            var naujas = "fkjsfjkd";
 
 
         }
