@@ -10,21 +10,30 @@ namespace tarpine
     {
         static void Main(string[] args)
         {
-            var skaicius=0;
-            var tikrina = 0;
-            var reiksme = 0;
-
-            while (skaicius > 0)
+            
+            for (int i = 1; ; i++)
             {
-                for (int i = 0; i < 10; i++)
+                var suma = 0;
+                for (int j = 1; j < 21; j++)
                 {
-                    if (skaicius % i == 0) { tikrina += 1; }
-                }
-                if (reiksme == 10)
-                    Console.WriteLine(skaicius);
+                    if (i % j == 0)
+                    {
+                        suma++;
 
+                    }
+                }
+
+
+                if (suma == 20)
+                {
+                    Console.WriteLine("Skacius dalinantis is visu skaiciu nuo 1 iki 20="+i); //randa tik ilgai reikia laukti
+                    break;
+                }
             }
         }
-        }
-        }
-
+    }
+}
+            
+        
+     
+        
