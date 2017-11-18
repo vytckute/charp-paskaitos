@@ -26,7 +26,7 @@ namespace tarpine
 
                 if (suma == 20)
                 {
-                    Console.WriteLine("Skacius dalinantis is visu skaiciu nuo 1 iki 20="+i); //randa tik ilgai reikia laukti
+                    Console.WriteLine("Skacius dalinantis is visu skaiciu nuo 1 iki 20="+i); //randa tik ilgai reikia laukti 
                     break;
                 }
             }
