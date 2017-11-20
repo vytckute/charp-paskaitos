@@ -35,11 +35,19 @@ namespace papildomos
 
             */
 
-            Console.WriteLine("Iveskite metus");
-            var d = Convert.ToInt32(Console.ReadLine());
-            if (d %400==0 || (d%100!=0 && d%4==0))
-            { Console.WriteLine("keliamieji"); }
-            else  { Console.WriteLine("nekeliamieji"); }
+            /*   Console.WriteLine("Iveskite metus");
+               var d = Convert.ToInt32(Console.ReadLine());
+               if (d %400==0 || (d%100!=0 && d%4==0))
+               { Console.WriteLine("keliamieji"); }
+               else  { Console.WriteLine("nekeliamieji"); }*/
+
+            var d = 6;
+            var s = 3;
+            var r = 3;
+            var g = 55; //atsakymas k = 4,58.
+
+            var k = (double)g / (d + s + r + g);
+            Console.WriteLine(k);
         }
         }
     }

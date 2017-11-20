@@ -9,7 +9,7 @@ namespace bandymai
     class Program
     {
         static void Main(string[] args)
-        { var sum = 0;
+        {/* var sum = 0;
             for (int i = 1; i < 1000; i++)
             {
                 if (i % 3 == 0 || i % 5 == 0)
@@ -17,24 +17,42 @@ namespace bandymai
                
             }
             Console.WriteLine(sum);
-            Console.WriteLine("=====================");
-
+            Console.WriteLine("====================="); */
+           // 600851475143
+            var sum = 0;
             var max = 0;
-            var max2 = 0;
-            for (int i = 2; i <= 13195; i++)
+            for (var i = 2; i < 6008514751; i++)
             {
-                if (13195 / i == 0)
-                {  /*   { if (i > max2)
-                               i = max2;
-                               max2 = i; }*/
-                    Console.WriteLine(i);
+                sum = 0;
+                if (6008514751 % i==0)
+                {
+                    
+                    for (int j = 1; j < i+1; j++)
+                    {
+                        if (i % j == 0)
+                        { sum++; }
+                    }
+                       
+                         if (sum == 2)
+                        {
+                        
+                            max = i;
+                           
+                        }
+                      //  Console.WriteLine(max);
+                    }
+                
+            }
+                  Console.WriteLine(max);      
+
+                    }
                 }
             }
-            Console.WriteLine(max2);
-            }
 
-
-
-        }
-    }
+        
+            
+        
+            
+        
+       
 
