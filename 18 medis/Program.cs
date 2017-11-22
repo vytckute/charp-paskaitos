@@ -14,7 +14,7 @@ namespace _18_medis
             medis.Isvedimas();
             var programa = new Program();
             Console.WriteLine("Aukstis "+medis.centimetrai());
-            Console.WriteLine("Aukstis " + medis.kadapasodinta());
+            Console.WriteLine("kurias metais pasodinta: " + medis.kadapasodinta());
         }
      
 
